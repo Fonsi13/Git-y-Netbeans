@@ -9,14 +9,8 @@ package git;
  *
  * @author Fonsi
  */
-public class NewMain {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println(Restador.restar(15f,4f));
+public class Restador {
+    public static float restar (float a, float b){
+        return a - b;
     }
-    
 }
